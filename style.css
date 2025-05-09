@@ -1,0 +1,135 @@
+/* You can press ctrl+spacebar to see the autofill options */
+
+body {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+}
+
+h1 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: peru;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: brown;
+    background-color: wheat;
+}
+
+p {
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: olivedrab;
+}
+
+#slogan {
+    padding: 0px;
+    font-style: italic;
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h3 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: peru;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: brown;
+    background-color: wheat; 
+}
+
+h4 {
+    margin: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: brown;
+    background-color: wheat;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+}
+
+/* IMAGES */
+
+img {
+    width: 200px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: olivedrab;
+    align-items: center;
+}
+
+.firstimage {
+    width: 600px;
+    margin: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.coffee-images {
+    display: flex;
+    justify-content: center;
+}
+.coffee-images img {
+    width: 200px;
+    padding: 5px;
+}
+
+.card {
+    text-align: center;
+}
+
+/* the div id is useful here because it helps you colour the whole navbar rather than each little link */
+/* align items is the vertical, and justify content is the horizontal */
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: wheat;
+    background-color: peru;
+    border-style: solid;
+    border-width: 3px;
+    border-color: wheat;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#navbar a {
+    padding: 10px;
+    color: wheat;
+}
+.icon {
+    width: 20px;
+    border: none;
+    align-items: center;
+}
+
+#socialbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+    background-color: wheat;
+    border-style: solid;
+    border-width: 3px;
+    border-color: peru;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 40px;  
+}
+#socialbar a {
+    padding: 10px;
+    color: brown;
+}
